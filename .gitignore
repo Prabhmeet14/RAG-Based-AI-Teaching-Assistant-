@@ -1,0 +1,28 @@
+﻿# Python cache and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Generated video files
+videos/*
+!videos/.gitkeep
+
+# Generated audio files
+audios/*
+!audios/.gitkeep
+
+# Generated transcript JSON files
+jsons/*
+!jsons/.gitkeep
+
+# Generated embeddings and outputs
+*.joblib
+prompt.txt
+response.txt
+
+# Editor and OS files
+.vscode/
+.DS_Store
+Thumbs.db
